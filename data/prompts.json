@@ -1,0 +1,51 @@
+{
+  "system_prompt": "You are a creative writer. Respond only with the requested text, around 250 words. No titles, no preamble, no commentary.",
+  "models": ["chatgpt", "gemini", "claude"],
+  "genres": {
+    "narrative": [
+      "Write a short story of around 250 words about a person who finds a mysterious letter in their mailbox.",
+      "Write a short story of around 250 words about two strangers who meet during a power outage in a city.",
+      "Write a short story of around 250 words about a scientist who discovers something unexpected in a routine experiment.",
+      "Write a short story of around 250 words about a child who realizes their neighborhood has changed overnight.",
+      "Write a short story of around 250 words about someone returning to their hometown after ten years away.",
+      "Write a short story of around 250 words about a librarian who finds a book that should not exist.",
+      "Write a short story of around 250 words about a fisherman who hears something singing under the ice."
+    ],
+    "argumentative": [
+      "Write a short essay of around 250 words arguing that social media is harmful to democracy.",
+      "Write a short essay of around 250 words arguing that remote work is better for productivity than office work.",
+      "Write a short essay of around 250 words arguing that universities should make coding mandatory for all students.",
+      "Write a short essay of around 250 words arguing that cities should ban private cars from their centers.",
+      "Write a short essay of around 250 words arguing that artificial intelligence will eliminate more jobs than it creates.",
+      "Write a short essay of around 250 words arguing that voting should be mandatory in democratic countries.",
+      "Write a short essay of around 250 words arguing that nuclear power is essential to fight climate change."
+    ],
+    "descriptive": [
+      "Write a vivid description of around 250 words of a busy train station at rush hour.",
+      "Write a vivid description of around 250 words of a street market in a large city.",
+      "Write a vivid description of around 250 words of an abandoned building being explored for the first time.",
+      "Write a vivid description of around 250 words of a thunderstorm seen from inside a small house.",
+      "Write a vivid description of around 250 words of the inside of a large library on a quiet afternoon.",
+      "Write a vivid description of around 250 words of a cathedral interior at dawn.",
+      "Write a vivid description of around 250 words of a desert highway at noon."
+    ],
+    "dialogue": [
+      "Write a dialogue of around 250 words between two old friends who haven't seen each other in ten years.",
+      "Write a dialogue of around 250 words between a tired doctor and a patient who refuses to accept a diagnosis.",
+      "Write a dialogue of around 250 words between a parent and a teenage child after a long argument.",
+      "Write a dialogue of around 250 words between two coworkers stuck together in a broken elevator.",
+      "Write a dialogue of around 250 words between a chess player and an opponent they cannot beat.",
+      "Write a dialogue of around 250 words between a customer and a clerk about a mistaken receipt.",
+      "Write a dialogue of around 250 words between a grandparent and a child looking at old photographs."
+    ],
+    "creative": [
+      "Write a poem of around 250 words about being alone in a city at night.",
+      "Write a poem of around 250 words about waking up before dawn.",
+      "Write a poem of around 250 words about the silence between two people who used to be close.",
+      "Write a poem of around 250 words about a winter morning in an empty street.",
+      "Write a poem of around 250 words about returning to a childhood bedroom.",
+      "Write a poem of around 250 words about the last day of summer.",
+      "Write a poem of around 250 words about watching a stranger from a window."
+    ]
+  }
+}
