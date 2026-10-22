@@ -37,10 +37,10 @@ We answer this empirically by:
 ```
 p13-stylometry/
 ├── data/
-│   ├── corpus.csv              # LLM-generated texts (model, genre, prompt_id, text)
-│   ├── human_baseline.csv      # produced by scripts/fetch_human_baseline.py
-│   ├── prompts.json            # 35 prompts × 3 models = 105 max samples
-│   └── features.csv            # produced by scripts/01_extract_features.py
+│   ├── corpus.csv              
+│   ├── human_baseline.csv     
+│   ├── prompts.json            
+│   └── features.csv            
 ├── src/
 │   ├── config.py               # paths, constants, model registry
 │   ├── corpus.py               # Corpus loader + validator
@@ -52,7 +52,7 @@ p13-stylometry/
 │   │   ├── punctuation.py
 │   │   ├── function_words.py
 │   │   └── extractor.py        # combines everything
-│   ├── embeddings.py           # SBERT encoder (optional)
+│   ├── embeddings.py           # SBERT encoder 
 │   ├── statistics.py           # ANOVA, Kruskal, Cohen's d, Holm
 │   ├── classify.py             # cross-validated attribution classifier
 │   ├── robustness.py           # genre holdout, mimicry, bootstrap
@@ -62,10 +62,10 @@ p13-stylometry/
 │   ├── 01_extract_features.py
 │   ├── 02_run_analysis.py
 │   ├── 03_robustness.py
-│   ├── collect_responses.py    # paste helper for growing the corpus
+│   ├── collect_responses.py
 │   └── fetch_human_baseline.py
 ├── notebooks/
-│   └── demo.ipynb              # narrative walkthrough
+│   └── demo.ipynb              
 ├── results/
 │   ├── figures/                # PNG plots
 │   └── tables/                 # CSV / JSON tables
